@@ -22,7 +22,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Test with unittest
       run: |
-        python -m unittest unittest.py
+        python -m unittest eshkere.py
   windows1:
     runs-on: windows-latest
     strategy:
@@ -38,5 +38,5 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Test with unittest
       run: |
-        python -m unittest unittest.py
+        python -m unittest eshkere.py
 
